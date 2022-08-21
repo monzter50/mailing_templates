@@ -1,0 +1,52 @@
+<mjml>
+<mj-head>
+    <mj-style>
+      .wrapper { 
+        overflow-x: hidden;
+        min-height: 400px;
+        background-color:#F7F2E8; 
+        padding:0;
+        border:1px solid red;
+        position: relative;
+        width:100%;
+       
+      }
+      .relative {
+        position: relative;
+      }
+      .line_head{
+        position: absolute;
+        height: 50px !important;
+        width: 85%;
+        top:-100px;
+        right:60%;
+      }
+      @media (min-width:480px) { 
+        .line_head{
+            width: 80%;
+           right:60%;
+        }
+        .wrapper { 
+          width:50%;
+        }
+      }
+    </mj-style>
+ 
+  </mj-head>
+  <mj-body >
+    <mj-wrapper css-class="wrapper"  >
+   
+      <mj-section>
+        <mj-column css-class="relative">
+          <mj-image css-class="line_head" src="https://i.ibb.co/vdwXqLc/lines-head-2.png"></mj-image>
+        </mj-column>
+      </mj-section>
+       <mj-section>
+        <mj-column>
+          <mj-text align="center">heeeey</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
