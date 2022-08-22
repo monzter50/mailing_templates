@@ -1,12 +1,13 @@
 <mjml>
 <mj-head>
+ <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" />
     <mj-style>
       .wrapper { 
         overflow-x: hidden;
         min-height: 400px;
         background-color:#F7F2E8; 
         padding:0;
-        border:1px solid red;
+        border:1px solid blue;
         position: relative;
         width:100%;
        
@@ -20,6 +21,12 @@
         width: 85%;
         top:-100px;
         right:60%;
+      }
+      .thanks{
+        font-family: "Helvetica, Raleway";
+        font-size:30px;
+        margin-bottom:0;
+        text-align:center !important;
       }
       @media (min-width:480px) { 
         .line_head{
@@ -43,7 +50,13 @@
       </mj-section>
        <mj-section>
         <mj-column>
-          <mj-text align="center">heeeey</mj-text>
+          <mj-text >
+          <span style="text-align:center;">
+            Gracias
+          </span>
+          </mj-text>
+          <mj-text align="center">por notificar</mj-text>
+          <mj-text align="center">tu cancelación</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
